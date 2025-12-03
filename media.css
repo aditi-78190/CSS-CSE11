@@ -1,0 +1,29 @@
+@media(max-width:768px){
+p {font: size 14px;}
+background-color:border-top-left-radius;
+}
+
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+@media(max-width:780px){
+    .box{
+        background-color: red;
+    }
+   
+}
+
+li{
+    list-style: none;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+

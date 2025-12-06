@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f6f6f6;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-container {
+    width: 60%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    background-color: aquamarine;
+}
+
+.name {
+    font-size: 32px;
+    margin: 0;
+    background-color: darkorchid;
+}
+
+.role {
+    font-size: 18px;
+    color: #444;
+    background-color: rgb(201, 61, 89);
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+hr {
+    margin: 20px 0;
+}

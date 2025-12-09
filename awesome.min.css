@@ -1,0 +1,52 @@
+ body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: inline;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(14, 182, 204);
+    padding: 1rem;
+    list-style: none;
+}
+.logo{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.menu{
+    display: inline;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 280px;list-style: none;
+}
+.menu a{
+    color: aquamarine;
+    padding: 1rem;
+    text-decoration: none;
+    display:inline;
+}
+.hamburger{
+    font-size: 2rem;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+@media (min-width:768px){
+    .menu{
+        display: inline;
+        flex-direction: row;
+        position: static;
+        background: aquamarine;
+        width: auto;
+    }
+    .hamburger{
+        display: none;
+    }
+}
+     

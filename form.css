@@ -1,0 +1,33 @@
+<style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #c4d110;
+        }
+
+        .head {
+            background: #bd1010;
+            color: rgb(231, 217, 12);
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .place {
+            background: rgb(211, 13, 161);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .place img {
+            width: 100%;
+            border-radius: 10px;
+        }

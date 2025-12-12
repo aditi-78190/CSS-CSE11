@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Simple Registration Form</title>
- 
+    <title>Explore India - Travel Website</title>
+    <link rel="stylesheet" href="form.css">
 </head>
+
 <body>
 
-  <h2>Registration Form</h2>
+    <h1 style="text-align:center;">🌍 Explore India</h1>
+    <hr>
 
-  <form>
+    <h2>About India</h2>
+    <p>
+        India is a land of diverse cultures, languages, and landscapes. 
+        From the Himalayas in the north to the beaches in the south, 
+        India offers beautiful travel destinations.
+    </p>
 
-    <!-- Personal Information -->
-    <fieldset>
-      <legend>Personal Information</legend>
+    <h2>Famous Places to Visit</h2>
 
-      <label>Full Name:</label>
-      <input type="text" name="name"><br><br>
+    <h3>1. Taj Mahal, Agra</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg" width="300">
+    <p>The Taj Mahal is one of the Seven Wonders of the World and a symbol of love.</p>
 
-      <label>Email:</label>
-      <input type="email" name="email"><br><br>
+    <h3>2. Jaipur, Rajasthan</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Hawa_Mahal_in_Jaipur_2011.jpg/320px-Hawa_Mahal_in_Jaipur_2011.jpg" width="300">
+    <p>Jaipur, the Pink City, is famous for its forts, palaces, and rich culture.</p>
 
-      <label>Age:</label>
-      <input type="number" name="age"><br><br>
-    </fieldset>
+    <h3>3. Goa Beaches</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Colva_Beach_Goa.jpg/320px-Colva_Beach_Goa.jpg" width="300">
+    <p>Goa is known for its stunning beaches and nightlife.</p>
 
-    <!-- Account Details -->
-    <fieldset>
-      <legend>Account Details</legend>
+    <h2>Contact Us</h2>
+    <form>
+        <label>Your Name:</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
 
-      <label>Username:</label>
-      <input type="text" name="username"><br><br>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email"><br><br>
 
-      <label>Password:</label>
-      <input type="password" name="password"><br><br>
-    </fieldset>
+        <label>Message:</label><br>
+        <textarea rows="4" cols="40" placeholder="Write your message"></textarea><br><br>
 
-    <input type="submit" value="Register">
+        <button type="submit">Submit</button>
+    </form>
 
-  </form>
-
+    <hr>
+    
 </body>
 </html>

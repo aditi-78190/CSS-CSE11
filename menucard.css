@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #fff3e6;
+}
+
+/* Header */
+.header {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+/* Menu Section */
+.menu {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.menu p {
+    background-color: #ffe0cc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

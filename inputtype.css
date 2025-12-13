@@ -1,0 +1,93 @@
+h1{
+    color: maroon;
+    text-align: center;
+    width:auto;
+    padding: 20px;
+    background-color:gold;
+}
+#boxa{
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+button{
+    color: blue;
+    background-color: rgb(209, 223, 11);
+    border-radius: 5px;
+    text-align: center;
+}
+#boxb{
+    width: 200px;
+    padding: 20px;
+    background-color: rgb(60, 231, 243);
+    margin: 50px auto;
+    border: #333 solid 2px;
+    border-radius: 10px;
+}
+#boxd{
+    width: 150px;
+    background-color: rgb(188, 243, 60);
+    margin: 50px auto;
+}
+#boxe{
+    color: blue;
+    text-align: center;
+    border-radius: 5px;
+}
+#boxf{
+     width: 300px;
+    padding: 20px;
+    background-color: #22bd0e;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#boxg{
+    width: 300px;
+    padding: 20px;
+    background-color: #81b0ec;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#boxh{
+    width: 300px;
+    padding: 20px;
+    background-color: #c8fc39;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+#boxi{
+    width: 300px;
+    padding: 20px;
+    background-color: #fa0b47;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+#boxj{
+    width: 300px;
+    padding: 20px;
+    background-color: #0ee2f1;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+#boxk{
+    width: 300px;
+    padding: 20px;
+    background-color: #f519d0;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+#boxl{
+    color: blue;
+    text-align: center;
+    border-radius: 5px;
+}
+    

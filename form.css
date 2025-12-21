@@ -5,6 +5,10 @@
             background: #c4d110;
         }
 
+        .about{
+            text-decoration: underline;
+        }
+
         .head {
             background: #bd1010;
             color: rgb(231, 217, 12);
@@ -30,4 +34,12 @@
         .place img {
             width: 100%;
             border-radius: 10px;
+        }
+
+        .personal{
+            text-align: center;
+        }
+
+        .about1{
+            text-decoration: underline;
         }

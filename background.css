@@ -5,4 +5,17 @@ h1{
 
 .hide{
     background-color: aquamarine;
+
+  /* background-image: url("image.jpg"); */
+  background: linear-gradient(
+      rgba(189, 46, 46, 0.6),
+      rgba(183, 219, 22, 0.6),
+      rgba(91, 218, 201, 0.6)
+    ),
+    url("dark-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
+
+
